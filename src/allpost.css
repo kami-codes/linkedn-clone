@@ -1,0 +1,44 @@
+.allpost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.post{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.post__top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.post__top > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.post__middle{
+    padding: 10px 5px;
+}
+.post__middle > p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.post__bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.icons__component.postIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.icons__component.postIcons:hover{
+    background-color: lightgray;
+    border: none;
+}
